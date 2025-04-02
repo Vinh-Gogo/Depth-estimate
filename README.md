@@ -1,1 +1,1 @@
-# estimate depth model autoencoder (Tensorflow)
+# depth estimation with similar model ( building platform Tensorflow)
