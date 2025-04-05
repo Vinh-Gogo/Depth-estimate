@@ -27,5 +27,5 @@ Từ khoảng năm 2014 đến nay, bài toán ước lượng độ sâu đã c
 Với mục đích xây dựng một thư viện bách khoa toàn thư cho thị giác máy tính, nghiên cứu này tập trung vào việc tinh chỉnh các kiến trúc phổ biến hiện nay như **U-net** hoặc kiến trúc **tích chập Autoencoder** để đạt được kết quả tốt với nguồn tài nguyên GPU hạn chế. Các đóng góp chính của nghiên cứu này trong lĩnh vực ước tính độ sâu bao gồm:
 
 1.  **Mô hình kiến trúc mạng tích chập Autoencoder** kết hợp chuẩn mô hình **DenseNet** được tinh chỉnh.
-2.  **Mô hình kiến trúc mạng tích chập U-net** kết hợp chuẩn **ResNet (Deep Residual Learning for Image Recognition)** được tinh chỉnh.
+2.  **Mô hình kiến trúc mạng tích chập U-net** kết hợp chuẩn **([Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385))** được tinh chỉnh.
 3.  **Mô hình kiến trúc mạng tích chập U-net** kết hợp chuẩn **DenseNet (Densely Connected Convolutional Networks)** được tinh chỉnh.
