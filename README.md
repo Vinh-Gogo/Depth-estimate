@@ -1,5 +1,6 @@
 # depth estimation with similar models (building platform Tensorflow)
 
+# Ước lượng độ sâu: Tổng quan và các đóng góp nghiên cứu
 
 Ước lượng độ sâu là một bài toán quan trọng trong lĩnh vực **thị giác máy tính**. Nó cung cấp thông tin về khoảng cách từ camera đến các điểm hoặc đối tượng trong một cảnh, giúp máy tính hiểu được chiều thứ ba trong không gian 3D. Bài toán này bổ sung thông tin về chiều sâu, cho phép máy tính nắm bắt cấu trúc 3D của vật thể.
 
