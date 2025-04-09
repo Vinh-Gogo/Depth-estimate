@@ -16,6 +16,6 @@ Cấu trúc các khối:
 
 Với mục đích xây dựng một thư viện bách khoa toàn thư cho thị giác máy tính, nghiên cứu này tập trung vào việc tinh chỉnh các kiến trúc phổ biến hiện nay như **U-net** hoặc kiến trúc **tích chập Autoencoder** để đạt được kết quả tốt với nguồn tài nguyên GPU hạn chế. Các đóng góp chính của nghiên cứu này trong lĩnh vực ước tính độ sâu bao gồm:
 
-1.  **Model CNNs Autoencoder** tinh chỉnh theo chuẩn **([DenseNet](https://arxiv.org/abs/1608.06993))**.
+1.  **Model CNNs Autoencoder** đơn giản.
 2.  **Model CNNs U-net** kết hợp chuẩn **([ResNet](https://arxiv.org/abs/1512.03385))** .
 3.  **Model CNNs U-net** kết hợp chuẩn **([DenseNet](https://arxiv.org/abs/1608.06993))** .
