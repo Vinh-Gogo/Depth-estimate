@@ -7,7 +7,7 @@
 <ul>
   <lu>
     1. Xe tự hành (sử dụng dữ liệu độ sâu từ các cảm biến để xây dựng mô hình 3D chi tiết của môi trường xung quanh xe, kết hợp với các biện pháp xác định vị trí các đối tượng trong ảnh RGB từ đó xác định khoảng cách khi có vật đến gần để xe vận hành tự động))
-    ![3D Reconstruction Flowchart](assets/3d_reconstruction.)
+    [![3D Reconstruction Flowchart](assets/3d_reconstruction.)](https://github.com/Vinh-Gogo/Depth-estimate/blob/main/3d_reconstruction.jpg)
   </lu>
   
   <lu>
