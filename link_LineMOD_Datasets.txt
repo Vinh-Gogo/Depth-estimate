@@ -1,0 +1,13 @@
+Bên duoi gom co 3 duong dan luu tru lineMOD dataset:
+
+1. Google Drive LineMOD dataset: 
+https://drive.google.com/drive/folders/19ivHpaKm9dOrr12fzC8IDFczWRPFxho7
+
+2. GitHub LineMOD dataset:
+https: https://github.com/hz-ants/FFB6D
+
+3. Website BOP (Benchmark for 6D Object Pose Estimation): 
+https://bop.felk.cvut.cz/datasets/
+
+checkpoint 3 models:
+https://drive.google.com/drive/folders/1Ord3UL60yVpTtheZJwXg18I65wkWgrI0?usp=sharing, https://drive.google.com/drive/folders/1cXk38FliafEwqaVLAalt32hDGK0iZ-8j?usp=sharing, https://drive.google.com/drive/folders/1h1OEb6ceT9g5uaSCf9BOPQmbg0TFh4QL?usp=sharing
