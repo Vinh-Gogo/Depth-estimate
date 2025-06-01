@@ -2,11 +2,16 @@
 
 # Dự đoán độ sâu từ ảnh camera
 
-**Mục tiêu:** Chuyển đổi ảnh chụp thành ảnh độ sâu, hồi quy giá trị khoảng cách của từng pixel. Nhiệm vụ này đặc biệt hữu ích ở những nơi cần cấu trúc cảnh 3D mà không có các phương pháp đo khoảng cách trực tiếp (ví dụ: đo phạm vi, đo âm thanh).
+**Mục tiêu chính:** Thay thế các thiết bị đo độ sâu chuyên dụng (LiDAR, PrimeSense Carmine sensor, ..) bằng các phương pháp huấn luyện mô hình học sâu dựa trên CNNs  
+**Ứng dụng:** 
+<ul>
+  <lu>
+    1. Xe tự hành (sử dụng dữ liệu độ sâu từ các cảm biến để xây dựng mô hình 3D chi tiết của môi trường xung quanh xe, kết hợp với các biện pháp xác định vị trí các đối tượng trong ảnh RGB từ đó xác định khoảng           cách khi có vật đến gần để xe vận hành tự động). ![image](https://github.com/user-attachments/assets/be50dbaa-d2f2-4e3a-bdb8-79dd2eabc77b)
 
-**Đóng góp:**
+  </lu>
+  <lu></lu>
+</ul>
 
-Với mục đích xây dựng một thư viện bách khoa toàn thư cho thị giác máy tính, nghiên cứu này tập trung vào việc tinh chỉnh các kiến trúc phổ biến hiện nay như **U-net** hoặc kiến trúc **tích chập Autoencoder** để đạt được kết quả tốt với nguồn tài nguyên GPU hạn chế. Các đóng góp chính của nghiên cứu này trong lĩnh vực ước tính độ sâu bao gồm:
 
 1.  **Model CNNs Autoencoder** đơn giản.
 2.  **Model CNNs U-net** kết hợp chuẩn **([ResNet](https://arxiv.org/abs/1512.03385))** .
