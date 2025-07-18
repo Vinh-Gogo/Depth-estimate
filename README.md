@@ -33,34 +33,14 @@ Thay thế các thiết bị đo độ sâu chuyên dụng (LiDAR, PrimeSense Ca
 <img src="https://github.com/user-attachments/assets/a1e1695e-19e9-4ab0-9e1d-48e30c93b78c" width="330"/>
 <img src="https://github.com/user-attachments/assets/d5df4059-7967-4873-a993-6ac6fe999f1a" width="400"/>
 
-## Lịch sử huấn luyện (SSIM-0.8 + MSE-0.2)
+4. **Unet SE resnet-dense (light - 3M)**
 
-![image](https://github.com/user-attachments/assets/9862e009-52e2-4608-8332-5ac7595567f9)
+![alt text](image.png)
 
+5. **Unet SE resnet-dense (light - 7M)**
 
-## Kết quả dự đoán
+![alt text](image-2.png)
 
-1 & 2. CAE backbone [ResNet](https://arxiv.org/abs/1512.03385) & U-net backbone [ResNet](https://arxiv.org/abs/1512.03385)
-   
-![image](https://github.com/user-attachments/assets/6dbfd698-ce0e-419a-b76e-e73ef4223d01)
+6. **Unet SE resnet-dense (medium - 13M)**
 
-![image](https://github.com/user-attachments/assets/b8d430e7-d5da-45e2-9605-f6f20c4f6acc)
-
-3. U-net backbone kết hợp [ResNet](https://arxiv.org/abs/1512.03385) & [DenseNet](https://arxiv.org/abs/1608.06993)
-   
-![image](https://github.com/user-attachments/assets/4971a974-1753-4ae4-a15c-f529e2668f5b)
-
-![image](https://github.com/user-attachments/assets/43b041cf-fb73-4804-aeed-1540b9b2c4d1)
-
-
-## So sánh
-
-![image](https://github.com/user-attachments/assets/d102748f-7e52-48bc-83a7-ce35209c122f)
-
-## Số lượng ảnh có độ lớn tin cậy với ngưỡng khác nhau 10%
-
-![image](https://github.com/user-attachments/assets/4753e80e-5fe4-475f-9f7e-10c40fe383fa)
-
-![image](https://github.com/user-attachments/assets/18135011-16ec-4d6c-8f5b-4ac6f333d8f0)
-
-![image](https://github.com/user-attachments/assets/9a45071e-98e1-4fe9-b5e3-5592f1065944)
+![alt text](image-1.png)
