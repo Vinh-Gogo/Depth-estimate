@@ -1,22 +1,9 @@
 <h1>Depth Estimation</h1>
 
-## Ước lượng độ sâu
-Kỹ thuật này tính toán khoảng cách từ cảm biến (thường là camera) đến từng điểm hoặc đối tượng hiện hữu trong một khung cảnh quan sát được. Thông qua việc hồi quy giá trị độ sâu cho mỗi điểm ảnh.
+## Ước tính khoảng cách từ camera đến các vật thể trong ảnh
+## Estimate the distance from the camera to objects in the image
 
-## Mục tiêu chính
-Thay thế các thiết bị đo độ sâu chuyên dụng (LiDAR, PrimeSense Carmine sensor, ..) bằng các phương pháp huấn luyện mô hình học sâu dựa trên CNNs  
-
-## Ứng dụng
-
-1. Xe tự hành (sử dụng dữ liệu độ sâu từ các cảm biến để xây dựng mô hình 3D chi tiết của môi trường xung quanh xe, kết hợp với các biện pháp xác định vị trí các đối tượng trong ảnh RGB từ đó xác định khoảng cách khi có vật đến gần để xe vận hành tự động)
-   
-<img src="https://github.com/user-attachments/assets/a5edf6a8-3b16-470b-a7ff-d5cf4efd2a7d" width="500"/>
-
-2. Tái tạo 3D
-   
-<img src="https://github.com/user-attachments/assets/721f5793-581f-4f14-89d7-d85909125f89" width="500"/>
-
-<h2>Phương pháp</h2>
+<h2>Kiến trúc mô hình - Models architecture</h2>
   
 1.  **Convolutional Autoencoder (CAE) backbone [ResNet](https://arxiv.org/abs/1512.03385)**
   
@@ -35,12 +22,22 @@ Thay thế các thiết bị đo độ sâu chuyên dụng (LiDAR, PrimeSense Ca
 
 4. **Unet SE resnet-dense (light - 3M)**
 
-![alt text](image.png)
+
 
 5. **Unet SE resnet-dense (light - 7M)**
 
-![alt text](image-2.png)
+
 
 6. **Unet SE resnet-dense (medium - 13M)**
 
+- backbone:
+    + se block
+    + conv_se_block
+    + densenet-resnet block
+    + attention block
+
 ![alt text](image-1.png)
+
+## Evalute model 6
+
+![alt text](image-3.png)
